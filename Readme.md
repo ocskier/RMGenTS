@@ -1,4 +1,4 @@
-# RM Gen
+# Readme Generator
 
 A Node JS application that asks the user questions and generates a GH repo readme file
 

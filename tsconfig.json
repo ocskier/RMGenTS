@@ -22,7 +22,7 @@
       "outDir": "dist"
     },
     "include": [
-      "*.ts","util/*.ts"
+      "*.ts","util/*.ts","questions/*.ts"
     ],
     "exclude": ["node_modules"]
   }
