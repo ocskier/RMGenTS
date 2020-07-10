@@ -1,4 +1,17 @@
-module.exports = function (dataObj: any) {
+interface dataType {
+  title: string;
+  githubId: string;
+  description: string;
+  pic: string;
+  installDirections: string;
+  installCmd: string;
+  testing: string;
+  deploy: string;
+  authors: string;
+  license: string;
+}
+
+module.exports = function (dataObj: dataType) {
   return `# ${dataObj.title}
 
 ${dataObj.description}
