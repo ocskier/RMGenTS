@@ -1,3 +1,5 @@
+const prereqGenerator = require('./prereqGenerator');
+
 interface dataType {
   title: string;
   githubId: string;
@@ -15,16 +17,22 @@ interface dataType {
 
 module.exports = function (dataObj: dataType) {
   return `# ${dataObj.title}
+  
+  <img style="border-radius: 20px;" src="https://img.shields.io/static/v1?label=LICENSE&message=${
+    dataObj.license
+  }&color=BLUE&style=for-the-badge">
 
-  <img style="border-radius: 20px;" src="https://img.shields.io/static/v1?label=LICENSE&message=${dataObj.license}&color=BLUE&style=for-the-badge">
+<br>
 
 ${dataObj.description}
+
+<br>
 
 <img width=200 height=200 src="${dataObj.pic}">
 
 ## Prerequisites
 
-<a href="https://nodejs.org/en/"><img width=80 height=80 src="logo.svg"><p style="margin:-2rem 0 0 0.75rem">${dataObj.prereq}</p></a>
+${prereqGenerator(dataObj.prereq)}
 
 ## Installation
 

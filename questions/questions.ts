@@ -19,9 +19,11 @@ module.exports = [
       'A Node JS application that asks the user questions and generates a GH repo readme file',
   },
   {
+    type: 'checkbox',
     name: 'prereq',
     message: 'Prerequisite Applications?',
-    default: 'NodeJS',
+    choices: ['NodeJS', 'MongoDB', 'MySQL'],
+    default: ['NodeJS'],
   },
   {
     name: 'installDirections',
