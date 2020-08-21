@@ -12,7 +12,8 @@ A Node JS application that asks the user questions and generates a GH repo readm
 
 ## Prerequisites
 
-<a href="https://nodejs.org/en/"><img width=80 height=80 src="logo.svg"><p style="margin:-2rem 0 0 0.75rem">Node JS</p></a>
+<img width=80 height=80 src="logo.svg">
+<a href="https://nodejs.org/en/"><p style="margin:-1.25rem 0 0 0.75rem">Node JS</p></a>
 
 ## Installation
 
