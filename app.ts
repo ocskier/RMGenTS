@@ -16,7 +16,7 @@ const init = async () => {
       `https://api.github.com/users/${answers.githubId}`
     );
     answers.pic = data.avatar_url;
-    await writeFileAsync(answers.pathToRepo + 'Readme.md', generator(answers));
+    await writeFileAsync(answers.pathToRepo + '/Readme.md', generator(answers));
     console.log('\nReadme written!\n');
   } catch (err) {
     console.log(`Your error was: ${err}`);

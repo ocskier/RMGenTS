@@ -19,6 +19,11 @@ module.exports = [
       'A Node JS application that asks the user questions and generates a GH repo readme file',
   },
   {
+    name: 'prereq',
+    message: 'Prerequisite Applications?',
+    default: 'NodeJS',
+  },
+  {
     name: 'installDirections',
     message: 'Directions?',
     default: 'Use Node JS command line to install packages',
@@ -27,6 +32,11 @@ module.exports = [
     name: 'installCmd',
     message: 'Install Command?',
     default: 'npm i',
+  },
+  {
+    name: 'usage',
+    message: 'Any Usage Commands?',
+    default: 'npm run start',
   },
   {
     name: 'testing',
