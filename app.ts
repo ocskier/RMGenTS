@@ -9,6 +9,8 @@ const readmeQues = require('./questions/questions');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+inquirer.registerPrompt('fuzzypath', require('inquirer-fuzzy-path'));
+
 const init = async () => {
   try {
     const answers = await inquirer.prompt(readmeQues);

@@ -1,6 +1,6 @@
 # Readme Generator
   
-  <img style="border-radius: 20px;" src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=BLUE&style=for-the-badge">
+<img style="border-radius: 20px;" src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=BLUE&style=for-the-badge">
 
 <br>
 
@@ -46,5 +46,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-MIT
-
+[MIT](LICENSE)

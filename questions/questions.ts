@@ -64,7 +64,14 @@ module.exports = [
   },
   {
     name: 'pathToRepo',
+    type: 'fuzzypath',
     message: 'Path?',
     default: './',
+    excludePath: (nodePath: string) => nodePath.startsWith('node_modules'),
+    excludeFilter: (nodePath: string) => nodePath == '.',
+    itemType: 'directory',
+    rootPath: '../../MyRepos',
+    suggestOnly: false,
+    depthLimit: 0,
   },
 ];
