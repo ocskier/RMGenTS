@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ocskier/RMGenTS#readme",
   "dependencies": {
-    "@types/node": "^14.0.20",
+    "@types/node": "^14.14.21",
     "axios": "^0.21.1",
     "inquirer": "^7.3.0",
     "inquirer-fuzzy-path": "^2.3.0",

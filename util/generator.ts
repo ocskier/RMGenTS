@@ -56,7 +56,7 @@ ${dataObj.testing}
 
 ## Deployment
 
-${dataObj.deploy}
+[Live Site](${dataObj.deploy})
 
 ## Authors
 
