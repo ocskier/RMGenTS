@@ -70,7 +70,8 @@ module.exports = [
     excludePath: (nodePath: string) => nodePath.startsWith('node_modules'),
     excludeFilter: (nodePath: string) => nodePath == '.',
     itemType: 'directory',
-    // Change the path below to ./ if you want the Readme in the current folder or use the path to your code projects folder
+    // Change the path below to ./ if you want the Readme in the current folder 
+    // or use the path to your code projects folder
     rootPath: '../../MyRepos',
     suggestOnly: false,
     depthLimit: 0,
