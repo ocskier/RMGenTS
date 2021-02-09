@@ -72,7 +72,7 @@ module.exports = [
     itemType: 'directory',
     // Change the path below to ./ if you want the Readme in the current folder
     // or use the path to your code projects folder
-    rootPath: '../../Bootcamp',
+    rootPath: '../../MyRepos',
     suggestOnly: false,
     depthLimit: 0,
   },
