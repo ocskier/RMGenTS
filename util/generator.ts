@@ -60,6 +60,8 @@ ${dataObj.testing}
 
 ## Authors
 
+<img width=40 height=40 style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/36890724?v=4">
+
 [${dataObj.authors}](http://github.com/${dataObj.githubId})
 
 Please make sure to update tests as appropriate.

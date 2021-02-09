@@ -40,7 +40,7 @@ GH-Pages
 
 ## Authors
 
-[Jon Jackson](http://github.com/ocskier)
+[Jon Jackson](http://github.com/ocskier) 
 
 Please make sure to update tests as appropriate.
 
