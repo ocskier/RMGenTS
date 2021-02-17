@@ -64,6 +64,8 @@ ${dataObj.testing}
 
 [${dataObj.authors}](http://github.com/${dataObj.githubId})
 
+## Contributing
+
 Please make sure to update tests as appropriate.
 
 ## License
