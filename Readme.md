@@ -42,6 +42,7 @@ GH-Pages
 
 [Jon Jackson](http://github.com/ocskier) 
 
+## Contributing
 Please make sure to update tests as appropriate.
 
 ## License
