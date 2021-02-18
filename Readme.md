@@ -8,7 +8,7 @@ A Node JS application that asks the user questions and generates a GH repo readm
 
 <br>
 
-<img width=200 height=200 src="https://avatars1.githubusercontent.com/u/36890724?v=4">
+![Screeenshot](RMGenPic.PNG)
 
 ## Prerequisites
 
